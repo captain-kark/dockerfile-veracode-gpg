@@ -8,11 +8,11 @@ Afterwards, on the host machine:
 
 ```
 $: ls -A1 encrypt/
-test.txt
-test.txt.gpg
+foobar.txt
+foobar.txt.gpg
 ```
 
-You can attach `test.txt.gpg` to an email (or whatever) to communicate secrets with veracode.
+You can attach `foobar.txt.gpg` to an email (or whatever) to communicate secrets with veracode.
 
 The public key that comes baked into the image can be verified, if desired.
 
